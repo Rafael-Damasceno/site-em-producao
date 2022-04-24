@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@font-face {
+    font-family: 'gotico';
+    src: url('fontes/Elementary_Gothic_Bookhand.ttf') format('truetype');
+    src: url('fontes/Elementary_Gothic_Bookhand.otf') format('opentype');
+    font-size: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'titania';
+    src: url('fontes/Titania-Regular.ttf') format('truetype');
+    font-size: normal;
+    font-weight: normal;
+}
+
+body {
+    display: grid;
+    grid-gap: 1rem;
+    position: relative;
+    top: 0%;
+    left: 50%;
+    width: 1000px;
+    transform: translate(-50%, 0%);
+    background-image: linear-gradient(to right,#1A88D6, #156FB0, #0D4770);
+   
+}
+
+header{
+    margin: 0;
+    padding-left: none;
+    padding-right: none;
+    padding-bottom: 8px;
+    background-color: #0c395a;
+    height: 150px;
+    border-style: solid;
+    border-width: 1px;
+    
+}
+
+#principalmain{
+    border-style: solid;
+    border-width: 1px;
+    border-left: none;
+    border-top: none;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.lateral{
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0);    
+    border-style: solid;
+    border-width: 1px;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+.campo{
+    background-color: #ffffff;   
+   border-style: solid;
+   border-width: 1px;
+   border-bottom: none;
+}
+
+.textomain{
+    color: #F2F2F2;
+    margin: 0;
+    padding: 0;
+    height: 29px;
+    
+}
+.maintext{
+    background-color: #377aad;
+    border-style: solid;
+    border-width: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.espaço{
+    width: 300px;
+}
+.pesquisa{
+    
+    background-image: linear-gradient(to right,#1A88D6, #156FB0, #0D4770);
+    height: 30px;
+    padding-top: 0;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    }
+    
+.barra{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: rgb(37, 93, 177);
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .5s;
+    font-family: 'open sans';
+}
+::-webkit-input-placeholder{
+    color: rgb(255, 255, 255);
+}
+.butao{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #0D4770;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisa > .barra{
+    width: 240px;
+    padding: 0 8px;
+}
+
+.pesquisa:hover > .butao{
+    background: #0b3b5e;
+}
+h1{
+    position: relative;
+    top: 55%;
+    color: #ffffff;
+    font-family: 'gotico';
+    font-style: normal;
+    text-align: center;
+}
+
+h2{
+    color: #0b3b5e;
+    font-family: 'titania';
+    font-size: normal;
+    text-align: center;
+}
+h3{
+    color: #0b3b5e;
+    font-family: 'titania';
+    font-size: normal;
+    text-align: center;
+}
+
+ p{
+     padding: 10px;
+     margin: 20px;
+     color: #000000;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+#titulolateral{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #54adf58f;
+    height: 29px;
+    border-style: solid;
+    border-width: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#in{
+    color: #F2F2F2;
+}
+#titulo3{
+    color: #F2F2F2;
+    position: absolute;
+    top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+
+.menu
+{
+    display: flex;
+    margin: 0;
+    height: 20px;
+    background-color: #fafafaec;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+ul{
+    color: #F2F2F2;
+}
+.a{
+    padding: 5px;
+    color: #0D0D0D;
+    text-decoration: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: solid;
+}
+.a:hover{
+    color: #F2F2F2;
+    background-color: #1A88D6;
+    border-radius: 5%;
+    transition-duration: .3s;
+}
+
+.b{
+    padding: 5px;
+    margin: 5px;
+    color: #ffffff;
+    text-decoration: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: solid;
+}
+.b:hover{
+    color: #1A88D6;
+}
+.c{
+    color: #ffffff;
+    text-decoration: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: solid;
+    font-size: small;
+}
+.c:hover{
+    color: #1A88D6;
+}
+#img1{
+    text-align: center;
+}
+
+
